@@ -228,3 +228,4 @@ for(i = 0; i <= 100; i++){
     console.log(i)
   }
 }
+// HEy nick arnt we so cool
