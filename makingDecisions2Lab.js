@@ -7,7 +7,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here yo what up is this really working!? Yes this so working!~!!!
-
+let firstItem = arr[0]
 
 ////////// PROBLEM 2 //////////
 /*
