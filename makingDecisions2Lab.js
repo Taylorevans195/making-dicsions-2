@@ -85,7 +85,7 @@ if (score >=90 ){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4,8,12,16,20,24,25];
 // Do not edit the code above.
 
 /*
@@ -105,7 +105,13 @@ let sumNum = myFavoriteNumbers [4];
 // What index do you use to get the 7th element?)
 
 //Code Here
-
+if(myFavoriteNumbers.length === 7 ){
+  console.log(sumNum = myFavoriteNumbers [6] )
+}else if(myFavoriteNumbers.length < 7){
+  console.log('Array is to small')
+}else{
+  console.log('Array is to big')
+}
 
 ////////// PROBLEM 8 //////////
 
