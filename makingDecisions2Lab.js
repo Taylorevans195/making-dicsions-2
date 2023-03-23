@@ -211,17 +211,3 @@ switch(letterGrade){
 */
 
 //Code Here
-for(i = 0; i <= 100; i++){
-  if (i % 3 === 0 && i % 5 === 0){
-    console.log('Dev Mountain')
-  }
-  else if (i % 3 === 0){
-    console.log('Dev')
-  }
-  else if (i % 5 === 0){
-    console.log('Moutain')
-  }
-  else{
-    console.log(i)
-  }
-}
