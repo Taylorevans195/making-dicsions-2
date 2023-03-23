@@ -48,7 +48,13 @@ let evensArr = []
 
 //Code Here
 
-
+ for(i = 0; i <nums.length; i++){
+  if(nums[i] % 2 == 0){
+    evensArr.push(nums.splice(i,1));
+    console.log(evensArr);
+    i--;
+  }
+ }
 
 ////////// PROBLEM 5 //////////
 
