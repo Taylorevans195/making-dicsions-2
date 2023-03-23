@@ -137,19 +137,19 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 /*
   Loop backwards, starting at the end of the 'letters' array. Console log every item in the array.
 */
-
+console.log("================")
 //Code Here
-for(i = letters.length; i >= 0; i--){
+for(i = letters.length - 1; i >= 0; i--){
   console.log(letters[i])
 }
-
+console.log("================")
 ////////// Advanced Problems //////////
 
 ////////// PROBLEM 10 //////////
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = 'F'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -163,6 +163,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
+
+
+switch(letterGrade){
+  case `A`:
+    console.log(`The student was awesome and got a ${letterGrade}`);
+    break;
+  case `B`:
+    console.log(`The student was good and got a ${letterGrade}`);
+    break;
+  case `C`:
+    console.log(`The student was ok and got a ${letterGrade}`);
+    break;
+  case `D`:
+    console.log(`The student was pretty bad and got a ${letterGrade}`);
+    break;
+  case `F` :
+    console.log(`The student was terrible and got a ${letterGrade}`);
+    break;
+  
+}
 
 
 
